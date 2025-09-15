@@ -6,7 +6,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Rifialdi Faturrochman",
-  description: "Created with lovely",
+  description: "Created with lovely using ☕ and 💻",
   generator: "Next.js",
 };
 

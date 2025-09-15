@@ -104,6 +104,7 @@ export default function Portfolio() {
     { name: "Bootstrap", category: "Frontend Frameworks" },
     { name: "Laravel", category: "Backend Technologies" },
     { name: "Node.js", category: "Backend Technologies" },
+    { name: "Next.js", category: "BackendTTechnologies" },
     { name: "Express.js", category: "Backend Technologies" },
     { name: "FastAPI/FlaskAPI", category: "Backend Technologies" },
     { name: "TensorFlow", category: "Machine Learning" },
@@ -119,6 +120,8 @@ export default function Portfolio() {
     { name: "Jupyter Notebook", category: "Tools" },
     { name: "Trello", category: "Tools" },
     { name: "Notion", category: "Tools" },
+    { name: "Draw.io (Visual Modelling)", category: "Tools" },
+    { name: "Bizzagi (Business Process Modelling)", category: "Tools" },
     { name: "Docker", category: "Tools" },
     { name: "Google Cloud", category: "Tools" },
   ];
@@ -420,7 +423,7 @@ export default function Portfolio() {
             <div className="max-w-4xl mx-auto">
               <div className="mb-8">
                 <div className="relative w-32 h-32 mx-auto mb-6">
-                  <div className="absolute -inset-2 rounded-2xl bg-[radial-gradient(ellipse_at_center,theme(colors.primary/15),transparent_60%)] blur-xl" aria-hidden="true" />
+                  <div className="absolute -inset-2 rounded-2xl bg-[radial-gradient(ellipse_at_center,rgba(59,130,246,0.15),transparent_60%)] blur-xl" aria-hidden="true" />
                   <div className="absolute inset-0 rounded-full border border-primary/20" aria-hidden="true" />
                   <div className="absolute inset-2 rounded-full border border-secondary/20 opacity-60" aria-hidden="true" />
                   <div className="relative z-10 w-32 h-32 rounded-full overflow-hidden ring-1 ring-primary/20 shadow-[0_12px_30px_-12px_rgba(0,0,0,0.35)]">
@@ -445,7 +448,7 @@ export default function Portfolio() {
                   <ArrowRight className="ml-2 h-4 w-4 relative z-10" />
                 </Button>
                 <Button variant="outline" size="lg" asChild className="relative overflow-hidden group bg-transparent">
-                  <a href="/CV/CV-RifialdiFaturrochman.pdf" target="_blank" rel="noopener noreferrer">
+                  <a href="/CV/CV_RIFIALDI_FATURROCHMAN.pdf" target="_blank" rel="noopener noreferrer">
                     <Download className="mr-2 h-4 w-4" />
                     <span>Download CV</span>
                   </a>
@@ -476,7 +479,7 @@ export default function Portfolio() {
               <div className="grid md:grid-cols-2 gap-12 items-center">
                 <div>
                   <div className="w-full h-80 rounded-lg mb-6 relative overflow-hidden">
-                    <div className="absolute -inset-2 rounded-2xl bg-[radial-gradient(ellipse_at_center,theme(colors.primary/10),transparent_60%)] blur-xl" aria-hidden="true" />
+                    <div className="absolute -inset-2 rounded-2xl bg-[radial-gradient(ellipse_at_center,rgba(59,130,246,0.1),transparent_60%)] blur-xl" aria-hidden="true" />
                     <div className="absolute inset-0 rounded-lg border border-primary/20" aria-hidden="true" />
                     <div className="absolute inset-2 rounded-lg border border-secondary/20 opacity-60" aria-hidden="true" />
                     <div className="relative z-10 w-full h-full rounded-lg overflow-hidden ring-1 ring-primary/20 shadow-[0_12px_30px_-12px_rgba(0,0,0,0.35)]">
@@ -491,8 +494,8 @@ export default function Portfolio() {
 
                 <div className="space-y-6">
                   <p className="text-lg text-muted-foreground leading-relaxed">
-                    I'm Rifialdi Faturrochman, a Software Engineering graduate with experience as Project Lead, System Analyst, and Software Engineer in diverse software projects. Skilled in system design, machine learning, and full-stack
-                    development, with a strong foundation in SDLC and team collaboration. Dedicated to delivering impactful, reliable, and innovative solutions.
+                    I'm Rifialdi Faturrochman, a Software Engineering graduate with experience as Project Lead, System Analyst, Software Engineer, and Machine Learning Engineer in diverse software projects. Skilled in system design, machine
+                    learning, and full-stack development, with a strong foundation in SDLC and team collaboration. Dedicated to delivering impactful, reliable, and innovative solutions.
                   </p>
 
                   <div className="grid grid-cols-2 gap-4 pt-4">
