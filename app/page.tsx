@@ -494,8 +494,8 @@ export default function Portfolio() {
 
                 <div className="space-y-6">
                   <p className="text-lg text-muted-foreground leading-relaxed">
-                    I'm Rifialdi Faturrochman, a Software Engineering graduate with experience as Project Lead, System Analyst, Software Engineer, and Machine Learning Engineer in diverse software projects. Skilled in system design, machine
-                    learning, and full-stack development, with a strong foundation in SDLC and team collaboration. Dedicated to delivering impactful, reliable, and innovative solutions.
+                    I'm Rifialdi Faturrochman, a Software Engineering graduate with experience as Project Lead, System Analyst, Software Engineer, and Machine Learning Engineer in diverse software projects. Skilled in system design,
+                    programming, machine learning or data, and full-stack development, with a strong foundation in SDLC and team collaboration. Dedicated to delivering impactful, reliable, and innovative solutions.
                   </p>
 
                   <div className="grid grid-cols-2 gap-4 pt-4">
