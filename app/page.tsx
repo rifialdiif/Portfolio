@@ -1145,6 +1145,12 @@ export default function Portfolio() {
                     Connect on LinkedIn
                   </Link>
                 </Button>
+                <Button size="lg" asChild className="relative overflow-hidden group">
+                  <Link href="https://github.com/rifialdiif">
+                    <Github className="mr-2 h-4 w-4" />
+                    GitHub
+                  </Link>
+                </Button>
               </div>
             </div>
           </div>
@@ -1162,7 +1168,7 @@ export default function Portfolio() {
                 <Heart className="w-4 h-4 text-rose-400" />
                 <span>using</span>
                 <Code className="w-4 h-4 text-primary" />
-                <span>dan</span>
+                <span>and</span>
                 <Coffee className="w-4 h-4 text-amber-400" />
               </div>
             </div>
