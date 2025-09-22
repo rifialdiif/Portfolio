@@ -104,24 +104,40 @@ export default function Portfolio() {
     { name: "Bootstrap", category: "Frontend Frameworks" },
     { name: "Laravel", category: "Backend Technologies" },
     { name: "Node.js", category: "Backend Technologies" },
-    { name: "Next.js", category: "BackendTTechnologies" },
+    { name: "Next.js", category: "Backend Technologies" },
     { name: "Express.js", category: "Backend Technologies" },
     { name: "FastAPI/FlaskAPI", category: "Backend Technologies" },
-    { name: "TensorFlow", category: "Machine Learning" },
-    { name: "PyTorch", category: "Machine Learning" },
-    { name: "Scikit-learn", category: "Machine Learning" },
-    { name: "Pandas", category: "Data Analysis" },
-    { name: "NumPy", category: "Data Analysis" },
-    { name: "Matplotlib", category: "Data Analysis" },
-    { name: "Seaborn", category: "Data Analysis" },
+    // Machine Learning & Data Analysis
+    { name: "TensorFlow", category: "Machine Learning & Data Analysis" },
+    { name: "PyTorch", category: "Machine Learning & Data Analysis" },
+    { name: "Scikit-learn", category: "Machine Learning & Data Analysis" },
+    { name: "Pandas", category: "Machine Learning & Data Analysis" },
+    { name: "NumPy", category: "Machine Learning & Data Analysis" },
+    { name: "Matplotlib", category: "Machine Learning & Data Analysis" },
+    { name: "Seaborn", category: "Machine Learning & Data Analysis" },
     { name: "MySQL", category: "Databases" },
     { name: "PostgreSQL", category: "Databases" },
+    // System Design & Architecture
+    { name: "MVC Pattern", category: "System Design & Architecture" },
+    { name: "ERD (Database Modelling)", category: "System Design & Architecture" },
+    { name: "OOP Principles", category: "System Design & Architecture" },
+
+    // Modelling & Analysis
+    { name: "UML", category: "Modelling & Analysis" },
+    { name: "SDLC", category: "Modelling & Analysis" },
+    { name: "Draw.io (Visual Modelling)", category: "Modelling & Analysis" },
+    { name: "Bizagi (Business Process Modelling)", category: "Modelling & Analysis" },
+    { name: "Business Model Canvas (BMC)", category: "Modelling & Analysis" },
+
+    // Software Engineering Practices
+    { name: "Agile & Scrum Methodologies", category: "Software Engineering & Analysis" },
+    { name: "Requirement Analysis", category: "Software Engineering & Analysis" },
+    { name: "Project Documentation", category: "Software Engineering & Analysis" },
     { name: "Git & GitHub", category: "Tools" },
+    { name: "Postman (API Testing)", category: "Tools" },
     { name: "Jupyter Notebook", category: "Tools" },
     { name: "Trello", category: "Tools" },
     { name: "Notion", category: "Tools" },
-    { name: "Draw.io (Visual Modelling)", category: "Tools" },
-    { name: "Bizzagi (Business Process Modelling)", category: "Tools" },
     { name: "Docker", category: "Tools" },
     { name: "Google Cloud", category: "Tools" },
   ];
@@ -528,7 +544,17 @@ export default function Portfolio() {
 
                 <TabsContent value="technical" className="space-y-8">
                   <div className="space-y-8">
-                    {["Programming Languages", "Frontend Frameworks", "Backend Technologies", "Machine Learning", "Data Analysis", "Databases", "Tools"].map((category) => (
+                    {[
+                      "Programming Languages",
+                      "Frontend Frameworks",
+                      "Backend Technologies",
+                      "Machine Learning & Data Analysis",
+                      "Databases",
+                      "System Design & Architecture",
+                      "Modelling & Analysis",
+                      "Software Engineering & Analysis",
+                      "Tools",
+                    ].map((category) => (
                       <div key={category}>
                         <h3 className="text-xl font-semibold mb-4 text-center">{category}</h3>
                         <div className="flex flex-wrap justify-center gap-3">
