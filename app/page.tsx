@@ -803,6 +803,12 @@ export default function Portfolio() {
                   <div className="grid md:grid-cols-2 gap-6">
                     {[
                       {
+                        title: "Fullstack Programming Learning Path",
+                        issuer: "Jawa Barat Istimewa Digital Academy • 2025",
+                        description: "Completed intensive training in fullstack development with a focus on Next.js..",
+                        certifPath: "/Certificate/Certificate Fase 2 Fullstack Web Programming - JIDA 2025 Rifialdi Faturrochman.pdf",
+                      },
+                      {
                         title: "Machine Learning Learning Path",
                         issuer: "Bangkit Academy by Google, GoTo, Traveloka • 2024",
                         description: "Completed an industry-recognized program focused on Machine Learning and graduated with Distinction.",
