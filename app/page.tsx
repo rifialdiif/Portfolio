@@ -148,7 +148,9 @@ export default function Portfolio() {
     { name: "Problem Solving", description: "Analytical thinking and systematic approach to tech or non-tech challenges" },
     { name: "Team Collaboration", description: "Effective communication and coordination in cross-functional teams" },
     { name: "Product Strategy", description: "Understanding user needs and translating them into solutions" },
+    { name: "Analytical Thinking", description: "Breaking down complex problems into logical parts, identifying root causes, and using data-driven reasoning to form clear solutions." },
     { name: "Critical Thinking", description: "Evaluating technical or non-technical decisions and their business impact" },
+    { name: "Growth Mindset", description: "Continuously seeking feedback, embracing challenges, and iterating on solutions to improve skills and outcomes." },
     { name: "Adaptability", description: "Quick learning and adapting to new technologies, concepts/theories, and methodologies" },
     { name: "Communication", description: "Clear technical documentation and stakeholder presentations" },
   ];
@@ -588,8 +590,8 @@ export default function Portfolio() {
               <div className="grid md:grid-cols-4 gap-6 mt-12">
                 <Card className="text-center p-6 hover:shadow-lg transition-all hover:scale-105">
                   <Code className="h-12 w-12 text-primary mx-auto mb-4" />
-                  <h3 className="font-semibold mb-2">Software Development</h3>
-                  <p className="text-sm text-muted-foreground">Full-stack development with scalable and innovative frameworks</p>
+                  <h3 className="font-semibold mb-2">Product Development</h3>
+                  <p className="text-sm text-muted-foreground">Product development through analysis and data-driven problem solving.</p>
                 </Card>
                 <Card className="text-center p-6 hover:shadow-lg transition-all hover:scale-105">
                   <Brain className="h-12 w-12 text-primary mx-auto mb-4" />
