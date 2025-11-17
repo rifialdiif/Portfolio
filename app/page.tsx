@@ -311,7 +311,7 @@ export default function Portfolio() {
       github: "",
       demo: "",
       category: "Product",
-      role: "Product Leader & Researcher",
+      role: "Product Lead & Researcher",
     },
 
     {
