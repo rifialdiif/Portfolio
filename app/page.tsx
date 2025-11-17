@@ -135,6 +135,8 @@ export default function Portfolio() {
     { name: "Project Documentation", category: "Software Engineering & Analysis" },
     { name: "Git & GitHub", category: "Tools" },
     { name: "Postman (API Testing)", category: "Tools" },
+    { name: "Google Collaboratory/ Jupiter Notebook", category: "Tools" },
+    { name: "Power BI", category: "Tools" },
     { name: "Jupyter Notebook", category: "Tools" },
     { name: "Trello", category: "Tools" },
     { name: "Notion", category: "Tools" },
@@ -157,6 +159,19 @@ export default function Portfolio() {
 
   const projects = [
     {
+      title: "Ranting (Berantas Stunting)",
+      description:
+        "A mobile application that utilizes machine learning to detect stunting in children based on anthropometric data, providing early intervention or menu recommendations to parents. The project received funding from the Ministry of Higher Education, Science, and Technology (Batch 2) and was developed using Scrum with a CRISP-DM workflow for the ML lifecycle.",
+      tech: ["Python", "Scikit-Learn", "PostgreSQL", "REST API", "Docker", "Android Development"],
+      image: "/Projects/Ranting.jpg",
+      github: "https://github.com/darishafizh/stuntingdetectionapp",
+      demo: "https://drive.google.com/file/d/1Pqr3CFrgwq9VWyA6D_bWkkOwOHkGPdhB/view?usp=drivesdk",
+      category: "Machine Learning & Android/Mobile",
+      // tags allow a project to appear in multiple filter buckets (e.g. AI/ML/Data and Mobile)
+      tags: ["AI/ML/Data", "Mobile"],
+      role: "Project Lead & ML Engineer",
+    },
+    {
       title: "DeLuSi",
       description: "A machine learning-based graduation prediction system built using Random Forest with 92% accuracy. Deployed via API on Google Cloud and integrated into a web platform with early-warning notifications for parents.",
       tech: ["Python", "Scikit-Learn", "Laravel", "PostgreSQL", "REST API", "Docker", "GCP"],
@@ -164,6 +179,7 @@ export default function Portfolio() {
       github: "https://github.com/rifialdiif/LuWak",
       demo: "https://delusi.site/",
       category: "Machine Learning & Website",
+      role: "Researcher, ML & Fullstack Developer",
     },
     {
       title: "SISTER Modul Sarana dan Prasarana",
@@ -173,6 +189,7 @@ export default function Portfolio() {
       github: "",
       demo: "https://sister.kemdikbud.go.id/beranda",
       category: "Website",
+      role: "System Analyst & Backend Support",
     },
     {
       title: "SISARPRAS",
@@ -181,8 +198,9 @@ export default function Portfolio() {
       tech: ["Laravel", "Vue.js", "PostgreSQL", "Tailwind", "UML", "SRS"],
       image: "/Projects/sisarpras.png?height=200&width=300",
       github: "",
-      demo: "",
+      demo: "https://sarpras.kemdiktisaintek.go.id/",
       category: "Website",
+      role: "System Analyst & Backend Support",
     },
     {
       title: "ASING! (Awas Stunting!)",
@@ -192,6 +210,8 @@ export default function Portfolio() {
       github: "https://github.com/ASING-Awas-Stunting",
       demo: "",
       category: "Machine Learning & Mobile",
+      tags: ["AI/ML/Data", "Mobile"],
+      role: "Project Lead & ML Engineer",
     },
     {
       title: "Bike-Sharing Dashboard",
@@ -201,6 +221,7 @@ export default function Portfolio() {
       github: "https://github.com/rifialdiif/Project_DA_Dicoding",
       demo: "https://capital-bikesharing-rifialdiif.streamlit.app/",
       category: "Data Analysis",
+      role: "Data Analyst",
     },
 
     {
@@ -210,6 +231,7 @@ export default function Portfolio() {
       image: "/Projects/Layscake demo.png?height=200&width=300",
       github: "https://github.com/darishafizh/layscake",
       category: "Website",
+      role: "Full-stack Developer",
     },
 
     {
@@ -219,6 +241,7 @@ export default function Portfolio() {
       image: "/Projects/e_problem.png?height=200&width=300",
       github: "https://github.com/rifialdiif/E-Problem-PEI",
       category: "Mobile",
+      role: "Android Developer",
     },
 
     {
@@ -228,6 +251,7 @@ export default function Portfolio() {
       image: "/Projects/simbara.png?height=200&width=300",
       github: "https://github.com/rifialdiif/SIMBARA",
       category: "Website",
+      role: "System Analyst & Full-stack Developer",
     },
 
     {
@@ -237,6 +261,27 @@ export default function Portfolio() {
       image: "/Projects/d'sinta.png?height=200&width=300",
       github: "https://github.com/rifialdiif/D-Sinta-POS",
       category: "Website",
+      role: "System Analyst & Full-stack Developer",
+    },
+
+    {
+      title: "E-Nilai SMANTI PWK",
+      description: "Developed D’Sinta POS, a point-of-sales system for a local restaurant, designed with UML and managed using the Scrum methodology to ensure efficient and reliable operations.",
+      tech: ["Codeigniter", "My SQL", "Javascript", "jQuery", "UML", "SRS"],
+      image: "/Projects/enilai.png?height=200&width=300",
+      github: "",
+      category: "Website",
+      role: "System Analyst & Full-stack Developer",
+    },
+
+    {
+      title: "SIPIKA (Sistem Informasi Presensi YPK)",
+      description: "Developed SIPIKA, an attendance information system for a vocational school, utilizing Laravel and waterfall methodology to create an efficient and user-friendly platform.",
+      tech: ["Laravel", "My SQL", "Javascript", "jQuery", "UML", "SRS"],
+      image: "/Projects/SIPIKA.png?height=200&width=300",
+      github: "",
+      category: "Website",
+      role: "Full-stack Developer",
     },
 
     {
@@ -245,6 +290,7 @@ export default function Portfolio() {
       tech: ["Java", "My SQL", "Swing GUI", "UML", "SRS"],
       image: "/Projects/sipe_ypk.png?height=200&width=300",
       category: "Desktop",
+      role: "Desktop Developer",
     },
 
     {
@@ -253,6 +299,7 @@ export default function Portfolio() {
       tech: ["Programming with Gamification", "Self Learning", "Learning by Doing", "SRS", "UML"],
       image: "/Projects/BingoCode.png?height=200&width=300",
       category: "Product",
+      role: "Product Lead & System Analyst",
     },
 
     {
@@ -263,6 +310,7 @@ export default function Portfolio() {
       github: "",
       demo: "",
       category: "Product",
+      role: "Product Leader & Researcher",
     },
 
     {
@@ -274,6 +322,7 @@ export default function Portfolio() {
       github: "",
       demo: "",
       category: "Product",
+      role: "Product Lead & Researcher",
     },
 
     {
@@ -285,11 +334,21 @@ export default function Portfolio() {
       github: "",
       demo: "",
       category: "Product",
+      role: "UX Researcher & Business Analyst",
     },
   ];
 
   // Filter projects berdasarkan kategori yang dipilih
-  const filteredProjects = selectedCategory === "All" ? projects : projects.filter((project) => categoryMapping[project.category] === selectedCategory);
+  // A project is included if its mapped category matches the selectedCategory
+  // or if it has explicit tags that include the selectedCategory (allows multi-bucket projects)
+  const filteredProjects =
+    selectedCategory === "All"
+      ? projects
+      : projects.filter((project) => {
+          const mapped = categoryMapping[project.category];
+          const tags: string[] = (project as any).tags || [];
+          return mapped === selectedCategory || tags.includes(selectedCategory);
+        });
 
   // Pagination logic
   const totalPages = Math.ceil(filteredProjects.length / projectsPerPage);
@@ -466,7 +525,7 @@ export default function Portfolio() {
                   <ArrowRight className="ml-2 h-4 w-4 relative z-10" />
                 </Button>
                 <Button variant="outline" size="lg" asChild className="relative overflow-hidden group bg-transparent">
-                  <a href="/CV/CV_RIFIALDI_FATURROCHMAN.pdf" target="_blank" rel="noopener noreferrer">
+                  <a href="/CV/[CV-ATS]_Rifialdi Faturrochman.pdf" target="_blank" rel="noopener noreferrer">
                     <Download className="mr-2 h-4 w-4" />
                     <span>Download CV</span>
                   </a>
@@ -590,8 +649,8 @@ export default function Portfolio() {
               <div className="grid md:grid-cols-4 gap-6 mt-12">
                 <Card className="text-center p-6 hover:shadow-lg transition-all hover:scale-105">
                   <Code className="h-12 w-12 text-primary mx-auto mb-4" />
-                  <h3 className="font-semibold mb-2">Product Development</h3>
-                  <p className="text-sm text-muted-foreground">Product development through analysis and data-driven problem solving.</p>
+                  <h3 className="font-semibold mb-2">Software Development</h3>
+                  <p className="text-sm text-muted-foreground">Full-stack development with scalable and innovative frameworks</p>
                 </Card>
                 <Card className="text-center p-6 hover:shadow-lg transition-all hover:scale-105">
                   <Brain className="h-12 w-12 text-primary mx-auto mb-4" />
@@ -645,7 +704,7 @@ export default function Portfolio() {
                       <p className="text-muted-foreground mb-4">Passionate about Software Engineering and Machine Learning, with hands-on experience in software development and AI/ML research projects.</p>
                       <div className="space-y-2">
                         <p className="text-sm">
-                          <strong>Relevant Coursework:</strong> Data Structures & Algorithms, Database Systems, Software Engineering, Data Mining/Machine Learning, Web Programming, Mobile Programming, Desktop Programming
+                          <strong>Relevant Coursework:</strong> Data Structures & Algorithms, Database Systems, Enterprise Resource Planning, Software Engineering, Data Mining/Machine Learning, Web Programming
                         </p>
                         <p className="text-sm">
                           <strong>Final Project:</strong> DeLuSi (Deteksi Kelulusan Mahasiswa) with Early Warning System
@@ -982,10 +1041,19 @@ export default function Portfolio() {
                         </div>
                         <CardHeader>
                           <div className="flex justify-between items-start">
-                            <CardTitle className="text-xl">{project.title}</CardTitle>
+                            <div className="flex-1">
+                              <CardTitle className="text-xl">{project.title}</CardTitle>
+                              {project.role && (
+                                <div className="mt-2">
+                                  <Badge variant="outline" className="text-sm">
+                                    {project.role}
+                                  </Badge>
+                                </div>
+                              )}
+                            </div>
                             <Badge variant="secondary">{project.category}</Badge>
                           </div>
-                          <CardDescription className="text-base">{project.description}</CardDescription>
+                          <CardDescription className="text-base mt-2">{project.description}</CardDescription>
                         </CardHeader>
                         <CardContent>
                           <div className="flex flex-wrap gap-2 mb-4">
