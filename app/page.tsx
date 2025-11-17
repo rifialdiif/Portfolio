@@ -226,6 +226,17 @@ export default function Portfolio() {
     },
 
     {
+      title: "Sistem Informasi PUK",
+      description:
+        "Built SISTEM INFORMASI PUK, a Laravel-based information system for managing cooperative operations at one of the PUK companies in Purwakarta, featuring member management, transaction tracking, and financial reporting to enhance operational efficiency.",
+      tech: ["Laravel", "My SQL", "Javascript", "jQuery", "UML"],
+      image: "/Projects/pukindofood.png?height=200&width=300",
+      github: "",
+      category: "Website",
+      role: "Project Lead & System Analyst",
+    },
+
+    {
       title: "LaysCake",
       description: "Built LAYSCAKE, a Laravel-based sales management system featuring product and customer tracking, stock monitoring, and revenue analysis with detailed performance reports to support business growth",
       tech: ["Laravel", "My SQL", "Javascript", "jQuery", "UML"],
