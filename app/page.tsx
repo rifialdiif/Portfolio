@@ -179,6 +179,7 @@ export default function Portfolio() {
       github: "https://github.com/rifialdiif/LuWak",
       demo: "https://delusi.site/",
       category: "Machine Learning & Website",
+      tags: ["AI/ML/Data", "Website"],
       role: "Researcher, ML & Fullstack Developer",
     },
     {
