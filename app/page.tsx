@@ -266,7 +266,7 @@ export default function Portfolio() {
 
     {
       title: "E-Nilai SMANTI PWK",
-      description: "Developed D’Sinta POS, a point-of-sales system for a local restaurant, designed with UML and managed using the Scrum methodology to ensure efficient and reliable operations.",
+      description: "Developed E-Nilai SMANTI PWK, an online grading system for a senior high school, utilizing CodeIgniter and SRS IEEE-Based to create a user-friendly platform for teachers and students.",
       tech: ["Codeigniter", "My SQL", "Javascript", "jQuery", "UML", "SRS"],
       image: "/Projects/enilai.png?height=200&width=300",
       github: "",
