@@ -872,6 +872,12 @@ export default function Portfolio() {
                   <div className="grid md:grid-cols-2 gap-6">
                     {[
                       {
+                        title: "Implementation of Artificial Intelligence For Data Processing",
+                        issuer: "BNSP • 2025",
+                        description: "Certified by the National Professional Certification Agency (BNSP) in the implementation of Artificial Intelligence for data processing.",
+                        certifPath: "/Certificate/BNSP-AI PROSES DATA.pdf",
+                      },
+                      {
                         title: "Project Management",
                         issuer: "Google • 2025",
                         description: "Completed Google's Project Management Professional Certificate, gaining skills in Agile project management, project planning, execution, and risk management.",
