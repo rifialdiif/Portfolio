@@ -619,7 +619,6 @@ export default function Portfolio() {
                       "Backend Technologies",
                       "Machine Learning & Data Analysis",
                       "Databases",
-                      "System Design & Architecture",
                       "Modelling & Analysis",
                       "Software Engineering & Analysis",
                       "Tools",
