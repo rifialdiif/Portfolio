@@ -620,7 +620,7 @@ export default function Portfolio() {
                       "Machine Learning & Data Analysis",
                       "Databases",
                       "Modelling & Analysis",
-                      "Software Engineering & Analysis",
+                      "Project Management",
                       "Tools",
                     ].map((category) => (
                       <div key={category}>
