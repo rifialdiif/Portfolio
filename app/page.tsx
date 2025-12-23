@@ -125,8 +125,9 @@ export default function Portfolio() {
     { name: "Business Model Canvas (BMC)", category: "Modelling & Analysis" },
 
     // Software Engineering Practices
-    { name: "Agile & Scrum Methodologies", category: "Project Management" },
+    { name: "Agile Methodologies", category: "Project Management" },
     { name: "Waterfall Methodologies", category: "Project Management" },
+    { name: "Lean Six Sigma Methodologies", category: "Project Management" },
     { name: "Requirement Analysis", category: "Project Management" },
     { name: "Project Documentation", category: "Project Management" },
     { name: "Git & GitHub", category: "Tools" },
