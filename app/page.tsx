@@ -105,7 +105,6 @@ export default function Portfolio() {
     { name: "Laravel", category: "Backend Technologies" },
     { name: "Node.js", category: "Backend Technologies" },
     { name: "Next.js", category: "Backend Technologies" },
-    { name: "Express.js", category: "Backend Technologies" },
     { name: "FastAPI/FlaskAPI", category: "Backend Technologies" },
     // Machine Learning & Data Analysis
     { name: "TensorFlow", category: "Machine Learning & Data Analysis" },
@@ -117,10 +116,6 @@ export default function Portfolio() {
     { name: "Seaborn", category: "Machine Learning & Data Analysis" },
     { name: "MySQL", category: "Databases" },
     { name: "PostgreSQL", category: "Databases" },
-    // System Design & Architecture
-    { name: "MVC Pattern", category: "System Design & Architecture" },
-    { name: "ERD (Database Modelling)", category: "System Design & Architecture" },
-    { name: "OOP Principles", category: "System Design & Architecture" },
 
     // Modelling & Analysis
     { name: "UML", category: "Modelling & Analysis" },
@@ -130,9 +125,10 @@ export default function Portfolio() {
     { name: "Business Model Canvas (BMC)", category: "Modelling & Analysis" },
 
     // Software Engineering Practices
-    { name: "Agile & Scrum Methodologies", category: "Software Engineering & Analysis" },
-    { name: "Requirement Analysis", category: "Software Engineering & Analysis" },
-    { name: "Project Documentation", category: "Software Engineering & Analysis" },
+    { name: "Agile & Scrum Methodologies", category: "Project Management" },
+    { name: "Waterfall Methodologies", category: "Project Management" },
+    { name: "Requirement Analysis", category: "Project Management" },
+    { name: "Project Documentation", category: "Project Management" },
     { name: "Git & GitHub", category: "Tools" },
     { name: "Postman (API Testing)", category: "Tools" },
     { name: "Google Collaboratory/ Jupiter Notebook", category: "Tools" },
@@ -763,7 +759,7 @@ export default function Portfolio() {
                         </div>
                         <div>
                           <p className="font-medium">ML Research Assistant & Mentor</p>
-                          <p className="text-sm text-muted-foreground">Assisted in ML research and mentored junior students in IT competitions</p>
+                          <p className="text-sm text-muted-foreground">Assisted in ML research and mentored junior students in IT competitions & developments</p>
                         </div>
                         <div>
                           <p className="font-medium">Tech Community Organizer</p>
@@ -876,9 +872,15 @@ export default function Portfolio() {
                   <div className="grid md:grid-cols-2 gap-6">
                     {[
                       {
+                        title: "Project Management",
+                        issuer: "Google • 2025",
+                        description: "Completed Google's Project Management Professional Certificate, gaining skills in Agile project management, project planning, execution, and risk management.",
+                        certifPath: "/Certificate/Coursera 1NJZXDN79ISE.pdf",
+                      },
+                      {
                         title: "Fullstack Programming Learning Path",
                         issuer: "Jawa Barat Istimewa Digital Academy • 2025",
-                        description: "Completed intensive training in fullstack development with a focus on Next.js..",
+                        description: "Completed intensive training in fullstack development with a focus on Next.js.",
                         certifPath: "/Certificate/Certificate Fase 2 Fullstack Web Programming - JIDA 2025 Rifialdi Faturrochman.pdf",
                       },
                       {
@@ -892,6 +894,30 @@ export default function Portfolio() {
                         issuer: "Google • 2024",
                         description: "Completed Google’s Crash Course on Python, gaining foundational skills in Python programming, problem-solving, and automation.",
                         certifPath: "/Certificate/Coursera_CrashCoursePython.pdf",
+                      },
+                      {
+                        title: "Analyze Data to Answer Questions",
+                        issuer: "Google • 2024",
+                        description: "Completed Google's Analyze Data to Answer Questions course, gaining skills in organizing data for analysis and performing calculations to derive insights.",
+                        certifPath: "/Certificate/Coursera_Analyze Data to Answer Questions.pdf",
+                      },
+                      {
+                        title: "Process Data from Dirty to Clean",
+                        issuer: "Google • 2024",
+                        description: "Completed Google’s Process Data from Dirty to Clean, gaining skills in data cleaning, data wrangling, and data analysis.",
+                        certifPath: "/Certificate/Coursera_Process Data from Dirty to Clean.pdf",
+                      },
+                      {
+                        title: "Share Data Through the Art of Visualization",
+                        issuer: "Google • 2024",
+                        description: "Completed Google’s Share Data Through the Art of Visualization, gaining skills in data visualization, data storytelling, and data communication.",
+                        certifPath: "/Certificate/Coursera_Share Data Through the Art of Visualization.pdf",
+                      },
+                      {
+                        title: "Mathematics for Machine Learning & Data Science Specialization",
+                        issuer: "DeepLearning.AI • 2024",
+                        description: "Completed the fundamental mathematics behind machine learning and data science, including linear algebra, calculus, and probability, to build and optimize ML models.",
+                        certifPath: "/Certificate/Coursera_Mathematics for ML and DS Specialization.pdf",
                       },
                       {
                         title: "Machine Learning Specialization",
